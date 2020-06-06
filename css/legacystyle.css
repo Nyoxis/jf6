@@ -1,0 +1,166 @@
+h1, h2, h3, h4, p, label{
+  font-family: sans-serif;
+  text-align: center;
+  color: #17495C;
+}
+h1, h2, h3{
+  white-space: nowrap;
+  color: #395561;
+}
+h1, h2 {
+  font-style: italic;
+  font-weight: 500;
+}
+h1{ font-size: 1.75em; margin: 0 40px}
+h2{ font-size: 1.3em;}
+small {
+  font-size: 0.75em;
+}
+
+a {
+  color: #f58d5e;
+  font-weight: bolder;
+  text-decoration: none;
+}
+a:hover { color: #E5AB61;}
+a:active { color: #E35150;}
+
+input,
+textarea
+{
+  display: block;
+  background-color: white;
+  resize: none;
+  border-style: none;
+  border-radius: 2px;
+}
+
+.btn {
+  cursor: pointer;
+  
+  background-color: #E27E50;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+}
+.btn:hover{background-color: #E5AB61;}
+.btn:active{background-color: #E35150;}
+.btn:focus{outline:0;}
+
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  padding: 20px 0 0 0;
+  box-shadow: None;
+}
+
+header a {
+  margin: auto;
+  text-align: left;
+  text-decoration: none;
+  white-space: nowrap;
+  margin: 0 10px;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #17495C;
+}
+header a:hover {color: #197A80;}
+header a:active {color: #203647;}
+
+#header {
+  width: 70%;
+  margin: 0 auto;
+}
+#contacts>*>* {
+  height: 1em;
+  display: inline;
+}
+#contacts>a {
+  display: block;
+}
+#logo img{
+  margin-top: 10px;
+  height: 2em;
+}
+
+.round1, .round2, .round3 {
+  border-radius: 10px;
+}
+
+.round4 {
+  border-radius: 2px;
+}
+
+#banner {
+  display: block;
+  background-image: url(../img/3B.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 384px;
+}
+
+
+
+main {
+  display: block;
+  margin: 0 auto;
+  width: 690px;
+}
+main td * {
+  margin: 0 20px;
+}
+main img {
+  width: 300px;
+}
+main p{
+  margin-bottom: 20px;
+}
+.description {
+  text-align: left;
+}
+#bottapp{
+  margin: 40px auto;
+}
+#tariffs {
+  background: linear-gradient(150deg,#e3ebea,#eee);
+  margin: 0 auto;
+  padding: 20px;
+  color: #17495C;
+  text-align: center;
+}
+#tariffs th {
+  padding: 0 20px;
+}
+.application {
+  background: linear-gradient(150deg,#abe9d6,#9ac8cf);
+  font-size: 0.8rem;
+  padding: 20px;
+}
+.application table{
+  margin: 0 auto;
+}
+.application td *{
+  margin: 0 20px;
+}
+
+footer h4, footer p{
+  color: #7c949c;
+  font-size: 0.9rem;
+}
+footer table {
+  margin: 0 auto;
+}
+footer td{
+  padding-top: 30px;
+  vertical-align: top;
+}
+footer td *{
+  width: 200px;
+  text-align: left;
+  margin: 0 20px;
+}
