@@ -77,7 +77,6 @@ header a:active {color: #203647;}
 }
 #contacts>*>* {
   height: 1em;
-  display: inline;
 }
 #contacts>a {
   display: block;
