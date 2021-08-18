@@ -1,4 +1,4 @@
-h1, h2, h3, h4, p, label{
+h1, h2, h3, h4, h5, p, ul, ol, label{
   font-family: sans-serif;
   text-align: center;
   color: #17495C;
@@ -75,7 +75,11 @@ header a:active {color: #203647;}
   width: 70%;
   margin: 0 auto;
 }
+#header #logo, #header #contacts {
+  width: 200px;
+}
 #contacts>*>* {
+  display: inline;
   height: 1em;
 }
 #contacts>a {
@@ -110,8 +114,12 @@ main {
   margin: 0 auto;
   width: 690px;
 }
+main td {
+  vertical-align: top;
+}
 main td * {
   margin: 0 20px;
+  line-height: 1.75rem;
 }
 main img {
   width: 300px;
@@ -147,7 +155,7 @@ main p{
   margin: 0 20px;
 }
 
-footer h4, footer p{
+footer h4, footer h5, footer p{
   color: #7c949c;
   font-size: 0.9rem;
 }
